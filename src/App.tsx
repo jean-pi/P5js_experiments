@@ -1,4 +1,4 @@
-import MainCanvas from './Components/MainCanvas'
+import MainCanvas from './Components/MainCanvas.tsx'
 import './App.css'
 
 function App() {
@@ -7,7 +7,9 @@ function App() {
 
   return (
     <>
-     <MainCanvas />
+      <div className="ContainerMainCanvas">
+        <MainCanvas />
+      </div>
     </>
   )
 }
